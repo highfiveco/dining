@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Dining</title>   
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css?v=1.0.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css?v=1.0.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css?v=1.2.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-slider.css?v=1.2.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-datepicker3.css?v=1.2.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-timepicker.css?v=1.2.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css?v=1.53.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.popSelect.css?v=1.2.0">
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/wow.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-slider.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-timepicker.js"></script>
+    <script type="text/javascript" src="assets/js/settings.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.popSelect.js"></script>
+
+</head>
+<body>
+
+<div class="container-fluid">
+
+<div class="row page-top wow bounceInDown">
+    <div class="container">
+        <ul class="social-media lang">
+            <li><a href="indexEn.html" target="_blank"><i>EN</i></a></li>
+        </ul>
+        <ul class="social-media input">
+            <li><a href="" target="_blank"><i class="hf-user-plus"></i></a></li>
+            <li><a href="" target="_blank"><i class="hf-sign-in"></i></a></li>
+        </ul>
+        
+        <p>00970-597-342200<i class="hf-phone"></i></p>
+        <p><i class="hf-clock"></i> خدمة على مدار الساعة </p>
+    </div>
+</div>
+
+
+
+<header class="row header wow bounceInUp">
+    <div class="container">
+        <ul class="main-nav hidden-xs">
+            <li><a href="#pays" class="active bttn">احجز الآن</a></li>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#afdal" class="bttn">الأفضل</a></li>
+            <li><a href="#jaw"  class="bttn">اخترنا لكم</a></li>
+            <li><a href="#" class="bttn">قائمة التوفير</a>
+            <ul class="submenu">
+                <li><a href="#eats" class="bttn">المأكولات</a></li>
+                <li><a href="#drinks" class="bttn">المشروبات</a></li>
+                <li><a href="#sweets" class="bttn">الحلويات</a></li>
+            </ul>
+            </li>
+            <li><a href="#conn" class="bttn">اتصل بنا</a></li>
+        </ul>
+        <div class="showMenu">
+        <span class="hf-list"></span>
+        <ul class="responsive-menu">
+            <li><a href="#pays" class="bttn">احجز الآن</a></li>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#afdal" class="bttn">الأفضل</a></li>
+            <li><a href="#jaw" class="bttn">اخترنا لكم</a></li>
+            <li class="fa"><a href="" class="bttn">قائمة التوفير</a></li>
+            <div class="sub">
+                <li><a href="#eats" class="bttn">المأكولات</a></li>
+                <li><a href="#drinks" class="bttn">المشروبات</a></li>
+                <li><a href="#sweets" class="bttn">الحلويات</a></li>
+            </div>
+            <li><a href="#conn" class="bttn">اتصل بنا</a></li>
+        </ul>
+    </div>
+        <a href="#" class="logo"><img src="assets/images/logo.png" alt="" class="img-responsive"></a>
+
+    </div>
+</header>
+
+<div class="row oslider wow bounceInUp">
+<div class="pay new">
+<iframe
+  height="260"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDoMPE-ztacOTfYlKdbye8-_3bxJR25pCA
+    &q=Space+Needle,Seattle+WA" allowfullscreen>
+</iframe>
+</div>
+<div class="pay old" id="pays">
+<div class="tabnav">
+<a href="1" class="a1">1</a>
+<a href="2" class="a2">2</a>
+</div>
+<form class="form-horizontal">
+<div class="tab1 act">
+    <div class="headerr">
+        <h4>خطوات <b>الحجز</b></h4>
+        <h5>اتبع الخطوات خطوة خطوة لكي تحجز بشكل صحيح</h5>
+    </div>
+    <div class="form-group">
+    <div class="col-lg-6 col-sm-6 col-xs-12"><input type="text" name="" class="form-control datepicker" data-date-format="dd-mm-yyyy" placeholder="التاريخ"></div>
+    <div class="col-lg-3 col-sm-3 col-xs-12"><input type="text" class="form-control timepicker timepicker-no-seconds defaults time" placeholder="الوقت" id="timepicker"></div>
+    <div class="col-lg-3 col-sm-3 col-xs-12"><select class="form-control">
+        <option value="0">شخص واحد</option>
+        <option value="1">شخص واحد</option>
+    </select></div>
+        
+    </div>
+
+    <div class="form-group">
+    <div class="col-lg-6  col-sm-6 col-xs-12"><select class="form-control">
+        <option value="0">المطاعم المتاحة</option>
+        <option value="1">المطاعم المتاحة</option>
+    </select></div>
+
+    <div class="col-lg-6 col-sm-6 col-xs-12"><select class="form-control" id="city_id">
+        <option value="0">ابحث عن اقرب مطعم في منطقتك</option>
+        <option value="1">ابحث عن اقرب مطعم في منطقتك</option>
+    </select></div>
+        
+    </div>
+
+    <div class="form-group">
+    <div class="col-lg-3 col-sm-3 col-xs-12" style="position: relative;">
+    <span class="menu2">الأصناف</span>
+        <ul class="post-tools" id="post_tol_1">
+        <li><input type="checkbox" id="p_1" name="post_type" value="1" checked=""><label for="p_1">صنف 1</label></li>
+        <li><input type="checkbox" id="p_2" name="post_type" value="2" checked=""><label for="p_2">صنف 2</label></li>
+        </ul>
+    </div>
+
+    <div class="col-lg-3 col-sm-3 col-xs-12"><select class="form-control">
+        <option value="0">المطاعم</option>
+        <option value="1">المطاعم</option>
+    </select></div>
+
+    <div class="col-lg-3 col-sm-3 col-xs-12" style="position: relative;">
+    <span class="menu2">المزايا</span>
+        <ul class="post-tools" id="post_tol_1">
+        <li><input type="checkbox" id="d_1" name="post_type" value="1" checked=""><label for="d_1">المزايا 1</label></li>
+        <li><input type="checkbox" id="d_2" name="post_type" value="2" checked=""><label for="d_2">المزايا 2</label></li>
+        </ul>
+    </div>
+
+    <div class="col-lg-3 col-sm-3 col-xs-12" style="position: relative;">
+    <span class="menu2">اسلوب المطعم</span>
+        <ul class="post-tools" id="post_tol_1">
+        <li><input type="checkbox" id="s_1" name="post_type" value="1" checked=""><label for="s_1">اسلوب المطعم 1</label></li>
+        <li><input type="checkbox" id="s_2" name="post_type" value="2" checked=""><label for="s_2">اسلوب المطعم 2</label></li>
+        </ul>
+    </div>
+        
+    </div>
+    <div class="form-action col-lg-9 col-sm-9 col-xs-12" style="text-align: center;">
+                 <button class="btn"><span>حفظ الحجز</span></button>
+            </div>
+    <div class="form-action col-lg-3 col-sm-9 col-xs-12" style="text-align: center; line-height: 40px;">
+      <p id="pay_method">طريقة الدفع <i class="hf-arrow-left"></i></p>
+            </div>
+        </div>
+
+    <div class="tab2">
+    <h2 style="text-align: center;">تأكيد الحجز</h2>
+        <div class="col-lg-6 col-sm-6 col-xs-6" style="border-left: 1px solid #dedede;">
+        <br>
+            <p>اسلوب المطعم اسلوب المطعم اسلوب المطعم اسلوب المطعم اسلوب المطعم</p>
+            <br>
+            <div class="form-group">
+                <input type="text" name="" class="form-control">
+            </div>
+
+            <div class="form-actions" style="text-align: center;">
+                <button class="btn"><span>الاتصال وتأكيد الحجز</span></button>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-sm-6 col-xs-6" style="direction: ltr;">
+        <br>
+            <p>اسلوب المطعم اسلوب المطعم اسلوب المطعم اسلوب المطعم اسلوب المطعم</p>
+            <br>
+            <div class="form-group">
+                
+                <div class="col-lg-3" style="padding-right: 0;">
+                <input type="text" name="" class="form-control" placeholder="YY">
+                </div>
+                <div class="col-lg-3" style="padding: 0;;">
+                <input type="text" name="" class="form-control" placeholder="MM">
+                </div>
+                <div class="col-lg-6">
+                <input type="text" name="" class="form-control" placeholder="NAME">
+                </div>
+
+                
+            </div>
+
+            <div class="form-group">
+                
+                <div class="col-lg-3" style="padding-right: 0;">
+                <input type="text" name="" class="form-control" placeholder="CVC">
+                </div>
+                <div class="col-lg-9" style="padding-right: 0;">
+                <input type="text" name="" class="form-control visa" placeholder="4213 1220 0229 3249">
+                </div>
+
+                
+            </div>
+            <div class="form-actions" style="text-align: center;">
+                <button class="btn"><span>الاتصال وتأكيد الحجز</span></button>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <br>
+    </div>
+    </form>
+</div>
+    <div id="owl-demo">
+        <div class="owl-carousel">
+   
+            <div class="item">
+                    <a class="item-content">
+                        <img src="uploads/header-1.jpg" alt="">
+                     
+                    <div class="caption">
+                        <h3 class="as">Dining</h3>
+                        <p>تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته.</p>
+                    </div>
+
+                    </a>
+            </div>
+
+            <div class="item">
+                    <a class="item-content">
+                        <img src="uploads/header-2.jpg" alt="">
+                    <div class="caption black">
+                        <h3 class="ad">Dining</h3>
+                        <p>تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته.</p>
+                    </div></a> 
+            </div>
+
+
+            <div class="item">
+                    <a class="item-content">
+                        <img src="uploads/header-3.jpg" alt="">
+                    <div class="caption ">
+                        <h3 class="as">Dining</h3>
+                        <p>تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته.</p>
+                    </div></a> 
+            </div>
+  
+        </div>
+    </div>
+</div>
+
+
+<div class="row jawla wow bounceInUp" id="jaw">
+    <div class="container">
+    <div class="col-lg-8 col-sm-6 col-xs-12">
+        <h2>جولة في المطعم</h2>
+        <h3>تفقد معنا المطعم قبل زيارته</h3>
+        <p>تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته.</p>
+        <div class="div-action"><a href="" class="btn"><span>استوديو الصور</span></a></div>
+    </div>
+    <div class="col-lg-4 col-sm-6 col-xs-12 item-photo">
+        <img src="uploads/aboutus.png" alt="" class="img-responsive">
+    </div>
+
+    </div>
+    <div class="right-bg hidden-xs"></div>
+    <div class="left-bg hidden-xs"></div>
+</div>
+
+
+<div class="row about wow bounceInUp">
+    <div class="container">
+    <div class="col-lg-7 col-sm-6 col-xs-12">
+       <img src="uploads/about1.jpg" alt="" class="img-responsive">
+        
+    </div>
+    <div class="col-lg-6 col-sm-7 col-xs-12 item-photo">
+    <div class="content">
+        <h2>من نحن</h2>
+        <h3>لماذا عليك ان تثق بنا بعد الان</h3>
+        <p>تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته.</p>
+
+        <p>تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته تفقد معنا المطعم قبل زيارته.</p>
+        <div class="div-action"><a href="" class="btn"><span>تواصل معنا</span></a></div>
+    </div>
+    </div>
+
+    </div>
+    <div class="left-bg hidden-xs"></div>
+</div>
+
+<div class="row prices wow bounceInUp" id="afdal">
+    <div class="container">
+        <h2>الأفضل يليق بك</h2>
+        <h3>اخترنا لك الافضل في الطعم والسعر</h3>
+
+        <div class="col-lg-12 cont">
+        
+            <div class="col-lg-3 col-sm-3 col-xs-6 item wow bounceIn" data-wow-delay="0.1s">
+            <img src="uploads/1.jpg" alt="" class="img-responsive">
+            <div class="content">
+                <p>مولد النصوص الجملة</p>
+                <p>12 $</p>
+                <a href="" class="btn btn-2"><span>اطلبه الان</span></a>
+
+                <div class="bottom">
+                    <div class="mod col-lg-6">
+                            <i class="hf-star active"></i>
+                            <i class="hf-star active"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                    </div>
+                    <div class="mod col-lg-6">مطعم الشهون</div>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="col-lg-3 col-sm-3 col-xs-6 item wow bounceIn" data-wow-delay="0.2s"">
+            <img src="uploads/2.jpg" alt="" class="img-responsive">
+            <div class="content">
+                <p>مولد النصوص الجملة</p>
+                <p>12 $</p>
+                <a href="" class="btn btn-2"><span>اطلبه الان</span></a>
+
+                <div class="bottom">
+                    <div class="mod col-lg-6">
+                            <i class="hf-star active"></i>
+                            <i class="hf-star active"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                    </div>
+                    <div class="mod col-lg-6">مطعم الشهون</div>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="col-lg-3 col-sm-3 col-xs-6 item wow bounceIn" data-wow-delay="0.3s"">
+            <img src="uploads/3.jpg" alt="" class="img-responsive">
+            <div class="content">
+                <p>مولد النصوص الجملة</p>
+                <p>12 $</p>
+                <a href="" class="btn btn-2"><span>اطلبه الان</span></a>
+
+                <div class="bottom">
+                    <div class="mod col-lg-6">
+                            <i class="hf-star active"></i>
+                            <i class="hf-star active"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                    </div>
+                    <div class="mod col-lg-6">مطعم الشهون</div>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="col-lg-3 col-sm-3 col-xs-6 item wow bounceIn" data-wow-delay="0.4s"">
+            <img src="uploads/4.jpg" alt="" class="img-responsive">
+            <div class="content">
+                <p>مولد النصوص الجملة</p>
+                <p>12 $</p>
+                <a href="" class="btn btn-2"><span>اطلبه الان</span></a>
+
+                <div class="bottom">
+                    <div class="mod col-lg-6">
+                            <i class="hf-star active"></i>
+                            <i class="hf-star active"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                    </div>
+                    <div class="mod col-lg-6">مطعم الشهون</div>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="col-lg-3 col-sm-3 col-xs-6 item wow bounceIn" data-wow-delay="0.5s"">
+            <img src="uploads/5.jpg" alt="" class="img-responsive">
+            <div class="content">
+                <p>مولد النصوص الجملة</p>
+                <p>12 $</p>
+                <a href="" class="btn btn-2"><span>اطلبه الان</span></a>
+
+                <div class="bottom">
+                    <div class="mod col-lg-6">
+                            <i class="hf-star active"></i>
+                            <i class="hf-star active"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                    </div>
+                    <div class="mod col-lg-6">مطعم الشهون</div>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="col-lg-3 col-sm-3 col-xs-6 item wow bounceIn" data-wow-delay="0.6s"">
+            <img src="uploads/6.jpg" alt="" class="img-responsive">
+            <div class="content">
+                <p>مولد النصوص الجملة</p>
+                <p>12 $</p>
+                <a href="" class="btn btn-2"><span>اطلبه الان</span></a>
+
+                <div class="bottom">
+                    <div class="mod col-lg-6">
+                            <i class="hf-star active"></i>
+                            <i class="hf-star active"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                    </div>
+                    <div class="mod col-lg-6">مطعم الشهون</div>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="col-lg-3 col-sm-3 col-xs-6 item wow bounceIn" data-wow-delay="0.7s"">
+            <img src="uploads/7.jpg" alt="" class="img-responsive">
+            <div class="content">
+                <p>مولد النصوص الجملة</p>
+                <p>12 $</p>
+                <a href="" class="btn btn-2"><span>اطلبه الان</span></a>
+
+                <div class="bottom">
+                    <div class="mod col-lg-6">
+                            <i class="hf-star active"></i>
+                            <i class="hf-star active"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                    </div>
+                    <div class="mod col-lg-6">مطعم الشهون</div>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-3 col-xs-6 item wow bounceIn" data-wow-delay="0.8s"">
+            <img src="uploads/8.jpg" alt="" class="img-responsive">
+            <div class="content">
+                <p>مولد النصوص الجملة</p>
+                <p>12 $</p>
+                <a href="" class="btn btn-2"><span>اطلبه الان</span></a>
+
+                <div class="bottom">
+                    <div class="mod col-lg-6">
+                            <i class="hf-star active"></i>
+                            <i class="hf-star active"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                    </div>
+                    <div class="mod col-lg-6">مطعم الشهون</div>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-3 col-xs-6 item wow bounceIn" data-wow-delay="0.9s"">
+            <img src="uploads/9.jpg" alt="" class="img-responsive">
+            <div class="content">
+                <p>مولد النصوص الجملة</p>
+                <p>12 $</p>
+                <a href="" class="btn btn-2"><span>اطلبه الان</span></a>
+
+                <div class="bottom">
+                    <div class="mod col-lg-6">
+                            <i class="hf-star active"></i>
+                            <i class="hf-star active"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                    </div>
+                    <div class="mod col-lg-6">مطعم الشهون</div>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-3 col-xs-6 item wow bounceIn" data-wow-delay="0.10s"">
+            <img src="uploads/10.jpg" alt="" class="img-responsive">
+            <div class="content">
+                <p>مولد النصوص الجملة</p>
+                <p>12 $</p>
+                <a href="" class="btn btn-2"><span>اطلبه الان</span></a>
+
+                <div class="bottom">
+                    <div class="mod col-lg-6">
+                            <i class="hf-star active"></i>
+                            <i class="hf-star active"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                    </div>
+                    <div class="mod col-lg-6">مطعم الشهون</div>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-3 col-xs-6 item wow bounceIn" data-wow-delay="0.11s"">
+            <img src="uploads/11.jpg" alt="" class="img-responsive">
+            <div class="content">
+                <p>مولد النصوص الجملة</p>
+                <p>12 $</p>
+                <a href="" class="btn btn-2"><span>اطلبه الان</span></a>
+
+                <div class="bottom">
+                    <div class="mod col-lg-6">
+                            <i class="hf-star active"></i>
+                            <i class="hf-star active"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                    </div>
+                    <div class="mod col-lg-6">مطعم الشهون</div>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-3 col-xs-6 item wow bounceIn" data-wow-delay="0.11s"">
+            <img src="uploads/12.jpg" alt="" class="img-responsive">
+            <div class="content">
+                <p>مولد النصوص الجملة</p>
+                <p>12 $</p>
+                <a href="" class="btn btn-2"><span>اطلبه الان</span></a>
+
+                <div class="bottom">
+                    <div class="mod col-lg-6">
+                            <i class="hf-star active"></i>
+                            <i class="hf-star active"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                            <i class="hf-star"></i>
+                    </div>
+                    <div class="mod col-lg-6">مطعم الشهون</div>
+                </div>
+            </div>
+            </div>
+            
+            
+        </div>
+       
+    </div>
+    <div class="left-bg hidden-xs"></div>
+</div>
+
+
+
+<div class="row menu wow bounceInUp">
+    <div class="container">
+        <h2>الأفضل يليق بك</h2>
+        <h3 class="as">اخترنا لك الافضل في الطعم والسعر</h3>
+
+        <div class="cont col-lg-12">
+        <div class="col-lg-7 col-sm-6 col-xs-12 pull-left wow slideInRight">
+       <img src="uploads/drink.jpg" alt="" class="img-responsive">
+        
+    </div>
+    <div class="col-lg-6 col-sm-6 col-xs-12 item-photo wow slideInRight" id="drinks">
+    <div class="content">
+        <h2>المشروبات</h2><br>
+        
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/mas.png" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/mas.png" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/mas.png" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/mas.png" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/mas.png" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/mas.png" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/mas.png" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    </div>
+       </div>
+
+
+       <div class="cont col-lg-12">
+       
+
+        <div class="col-lg-7 col-sm-6 col-xs-12 pull-right wow slideInRight">
+       <img src="uploads/eats.jpg" alt="" class="img-responsive">
+        
+    </div>
+    <div class="col-lg-6 col-sm-6 col-xs-12 item-photo left wow slideInRight" id="eats">
+    <div class="content">
+        <h2>المأكولات</h2><br>
+        
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/sweets.jpg" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/sweets.jpg" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/sweets.jpg" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/sweets.jpg" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/sweets.jpg" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/sweets.jpg" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/sweets.jpg" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    </div>
+       </div>
+
+
+       <div class="cont col-lg-12">
+        <div class="col-lg-7 col-sm-6 col-xs-12 pull-left wow slideInRight">
+       <img src="uploads/sweets.jpg" alt="" class="img-responsive">
+        
+    </div>
+    <div class="col-lg-6 col-sm-6 col-xs-12 item-photo wow slideInRight" id="sweets">
+    <div class="content">
+        <h2>الحلويات</h2><br>
+        
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/hl.jpg" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/hl.jpg" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/hl.jpg" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/hl.jpg" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/hl.jpg" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/hl.jpg" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-12 photo-m" style="padding: 0;">
+            <div class="col-md-1 col-sm-1 col-xs-1" style="padding: 0; margin-bottom: 10px;"><img src="uploads/hl.jpg" alt="" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">كوكا كولا زيرو</div>
+            <div class="col-md-5 col-sm-5 col-xs-5 underline">مطعم العافية - دبي</div>
+            <div class="col-md-2 col-sm-2 col-xs-2">5 $</div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    </div>
+       </div>
+
+
+
+    </div>
+    <div class="left-bg hidden-xs"></div>
+</div>
+<footer class="footer row wow bounceInUp">
+    <div class="container">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 contact" id="conn">
+            <h4>نسعد بسماع استفساراتك</h4>
+            <form>
+                <div>111</div>
+            <div class="form-group">
+                <input type="text" name="" class="form-control" placeholder="الاسم كاملا">
+            </div>
+            <div class="form-group">
+                <input type="eamil" name="" class="form-control" placeholder="البريد الالكتروني">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" class="form-control" placeholder="الهاتف (اختياري)">
+            </div>
+            <div class="form-group">
+                <textarea name="" placeholder="الرسالة" class="form-control" rows="4"></textarea>
+            </div>
+            <div class="form-action" style="text-align: center;">
+                 <button class="btn"><span>ارسال</span></button>
+            </div>
+            </form>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 s_links">
+            <h4>روابط سريعة</h4>
+            <ul class="links col-lg-12">
+                <li><a href="">رابط سريع</a></li>
+                <li><a href="">رابط سريع</a></li>
+                <li><a href="">رابط سريع</a></li>
+                <li><a href="">رابط سريع</a></li>
+                <li><a href="">رابط سريع</a></li>
+                <li><a href="">رابط سريع</a></li>
+                <li><a href="">رابط سريع</a></li>
+                <li><a href="">رابط سريع</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 links">
+            <img src="assets/images/footer-logo.png">
+            <p>نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص نص </p><br>
+            <ul class="social-media">
+            <li><a href="" target="_blank"><i class="hf-instagram"></i></a></li>
+            <li><a href="" target="_blank"><i class="hf-whatsapp"></i></a></li>
+            <li><a href="" target="_blank"><i class="hf-youtube2"></i></a></li>
+            <li><a href="" target="_blank"><i class="hf-pinterest-p"></i></a></li>
+            <li><a href="" target="_blank"><i class="hf-linkedin"></i></a></li>
+            <li><a href="" target="_blank"><i class="hf-twitter"></i></a></li>
+            <li><a href="" target="_blank"><i class="hf-google-plus"></i></a></li>
+            <li><a href="" target="_blank"><i class="hf-facebook"></i></a></li>
+        </ul>
+        </div>
+    </div>
+    <div class="right-bg hidden-xs"></div>
+    <div class="left-bg hidden-xs"></div>
+</footer>
+<div class="copyright row">
+    <div class="container"><span>copyright © 2017 dining.com</span></div>
+</div>
+</div>
+</body>
+</html>
+<script>
+    $(document).mouseup(function (e)
+    {
+        var container = $(".popover-select");
+        if (!container.is(e.target) // if the target of the click isn't the container...
+            && container.has(e.target).length === 0) // ... nor a descendant of the container
+        {
+            container.hide();
+        }
+    });
+    $(window).on('load',function(){
+
+    });
+    $(document).ready(function () {
+        $('.bootstrap-timepicker-widget ').removeClass('open');
+        $(".datepicker").datepicker("setDate", new Date());
+        $("#city_id").change(function(e) {
+            if($(this).val()!=0){
+                $('.pay.new').css('left','47.5%');
+                var slidingTagLiAfterStyle = document.createElement("style");
+                slidingTagLiAfterStyle.innerHTML =".pay.new:before {opacity:1;} .pay.old:before {opacity:0;} .pay.new{-webkit-transition: all 0.2s ease-out;-moz-transition: all 0.2s ease-out;-o-transition: all 0.2s ease-out;transition: all 0.2s ease-out;}";
+                document.head.appendChild(slidingTagLiAfterStyle);
+
+            }else{
+                $('.pay.new').css('left','10%');
+                var slidingTagLiAfterStyle = document.createElement("style");
+                slidingTagLiAfterStyle.innerHTML =".pay.new:before {opacity:0;} .pay.old:before {opacity:1;} .pay.new{transition:none;}";
+                document.head.appendChild(slidingTagLiAfterStyle);
+            }
+        });
+    });
+</script>
