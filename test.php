@@ -3,5 +3,6 @@
 
 
 echo phpinfo();
+echo 'ahmed';
 
 
